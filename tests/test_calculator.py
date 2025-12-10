@@ -15,6 +15,6 @@ def test_mul():
 
 
 def test_div():
-    assert calculator.div(6, 3) == 2
+    assert calculator.div(10, 2) == 5
     with pytest.raises(ZeroDivisionError):
         calculator.div(1, 0)
